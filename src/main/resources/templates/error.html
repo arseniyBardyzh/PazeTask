@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exception</title>
+</head>
+<body>
+<div>
+    <h1>ERROR</h1>
+    <h3>Something went wrong</h3>
+    <div th:if="${errorCode}">
+        <p>Error Code</p>
+        <p th:utext="${errorCode}"></p>
+    </div>
+    <div th:if="${errorMessage}">
+        <p>Error Message</p>
+        <p th:utext="${errorMessage}"></p>
+    </div>
+    <div th:if="${errorDescription}">
+        <p>Error Description</p>
+        <p th:utext="${errorDescription}"></p>
+    </div>
+</div>
+</body>
+</html>

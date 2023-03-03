@@ -1,0 +1,5 @@
+{
+  "paymentType": "DEPOSIT",
+  "amount": 500,
+  "currency": "EUR"
+}

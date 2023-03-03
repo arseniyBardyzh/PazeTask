@@ -1,0 +1,7 @@
+{
+  "timestamp": "2023-03-03T15:25:44.034+00:00",
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Invalid token length",
+  "path": "/api/v1/payments"
+}

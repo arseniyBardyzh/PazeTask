@@ -1,0 +1,12 @@
+{
+  "timestamp": "2023-03-03T14:52:09.079+00:00",
+  "status": 200,
+  "result": {
+    "id": "c3aa0fa7bda84eaeb483d3f913e79034",
+    "paymentType": "DEPOSIT",
+    "state": "CHECKOUT",
+    "amount": 500,
+    "currency": "EUR",
+    "redirectUrl": "https://demo.paze.eu/payment/c3aa0fa7bda84eaeb483d3f913e79034"
+  }
+}

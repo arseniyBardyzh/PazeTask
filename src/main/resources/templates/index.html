@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transfer Money</title>
+</head>
+<body>
+<form action="#" th:action="@{/send}" method="post">
+    <label for="money"> Qty of money</label>
+    <input type="number" id="money" name="number" th:min="0" required>
+    <button type="submit">Send Request</button>
+</form>
+</body>
+</html>
