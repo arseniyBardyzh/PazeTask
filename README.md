@@ -12,6 +12,9 @@ You can run the application by maven repository
     
     maven clean install
     
+## Additional information
+I use springfox to generate java classes from paze API descriprion
+By default this application starts on 8081 port. You can chnge it in [application.yml](src/main/resources/application.yml) file
 ## Author
 Arseniy Bardyzh
 

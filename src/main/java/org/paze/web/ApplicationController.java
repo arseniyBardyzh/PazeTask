@@ -26,7 +26,7 @@ public class ApplicationController {
         return "index";
     }
     @PostMapping("/send")
-    public String submitNumberInputForm(@RequestParam("number") BigDecimal number) {
+    public String sendNumber(@RequestParam("number") BigDecimal number) {
         String redirectUrl = pazeService.getRedirectUrl(number);
         return "redirect:" + redirectUrl;
     }
