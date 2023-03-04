@@ -12,6 +12,7 @@ You can run the application by maven repository
     
     mvn clean install
     
+If generated classes don't import correct you should reload maven project
 ## Additional information
 I use springfox to generate java classes from paze API descriprion
 
