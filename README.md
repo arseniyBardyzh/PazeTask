@@ -10,8 +10,9 @@ This is implementation createPayment POST request from [Paze API](https://app.pa
 ## Getting Started
 You can run the application by maven repository 
     
-    maven clean install
+    mvn clean install
     
+If generated classes don't import correct you should reload maven project
 ## Additional information
 I use springfox to generate java classes from paze API descriprion
 
