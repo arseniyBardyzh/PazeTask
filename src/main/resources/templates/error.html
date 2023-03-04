@@ -6,18 +6,18 @@
 </head>
 <body>
 <div>
-    <h1>ERROR</h1>
-    <h3>Something went wrong</h3>
+    <h1>ОШИБКА</h1>
+    <h3>Что то пошло не так</h3>
     <div th:if="${errorCode}">
-        <p>Error Code</p>
+        <p>Код ошибки</p>
         <p th:utext="${errorCode}"></p>
     </div>
     <div th:if="${errorMessage}">
-        <p>Error Message</p>
+        <p>Текст ошибки</p>
         <p th:utext="${errorMessage}"></p>
     </div>
     <div th:if="${errorDescription}">
-        <p>Error Description</p>
+        <p>Описание</p>
         <p th:utext="${errorDescription}"></p>
     </div>
 </div>
